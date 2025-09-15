@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Business Name</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Business Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about" class="card">
+      <h2>About Us</h2>
+      <p>Welcome to our business! We provide [your service/product].</p>
+    </section>
+
+    <section id="services" class="card">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1 – Short description</li>
+        <li>Service 2 – Short description</li>
+        <li>Service 3 – Short description</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact Us</h2>
+      <p>Email: you@yourdomain.com</p>
+      <p>Phone: (555) 123-4567</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
